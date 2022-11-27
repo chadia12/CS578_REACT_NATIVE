@@ -1,0 +1,27 @@
+{
+  "name": "homework-02-chadia12",
+  "version": "1.0.0",
+  "description": "Please find below an Express application that connects to a local MongoDB instance, each document has the following structure for `schools` collection:\r ```JavaScript\r {\r     \"_id\":1,\r     \"teachers\": [\r         {\"_id\":1, \"name\":\"Asaad\"},\r         {\"_id\":2, \"name\":\"Umur\"}\r     ],\r     \"courses\":[\r         {\"_id\":1, \"title\": \"CS477\", \"students\":[\r             {\"_id\":1, \"name\":\"John\"},\r             {\"_id\":2, \"name\":\"Selin\"}\r         ]},\r         {\"_id\":2, \"title\": \"CS571\", \"students\":[\r             {\"_id\":1, \"name\":\"Alican\"},\r             {\"_id\":2, \"name\":\"Dean\"}\r         ]},\r         {\"_id\":3, \"title\": \"CS415\", \"students\":[\r             {\"_id\":1, \"name\":\"Tina\"},\r             {\"_id\":2, \"name\":\"Clyde\"}\r         ]}\r     ]\r }\r ```\r Your are responsible on writing code for 6 MongoDB queries within 6 pre-defined routes in `app.js` file:\r 1. Add teacher *(level 1)*\r 2. Update teacher by ID *(level 1)*\r 3. Delete teacher by ID *(level 1)*\r 4. Add a new student to specific course *(level 2)*\r 5. Update a student's name *(level 2)*\r 6. Delete a student *(level 2)*",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maharishi-university/homework-02-chadia12.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maharishi-university/homework-02-chadia12/issues"
+  },
+  "homepage": "https://github.com/maharishi-university/homework-02-chadia12#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.4"
+  }
+}

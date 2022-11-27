@@ -1,0 +1,27 @@
+{
+  "name": "homework-7-chadia12",
+  "version": "1.0.0",
+  "description": "Create a new React Native app with Expo-CLI and use [React Navigation](https://reactnavigation.org/) to support the following app structure:\r * `Home` *(Bottom Tab Navigator)*\r     * `Services` *(Stack Navigator)*\r       * `Quotes`*Screen* \r       * `Pic of the Day` *Screen*\r     * `About me` *Screen*\r       * `Hobby` *Reusable Component*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maharishi-university/homework-7-chadia12.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maharishi-university/homework-7-chadia12/issues"
+  },
+  "homepage": "https://github.com/maharishi-university/homework-7-chadia12#readme",
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.4.0",
+    "@react-navigation/native": "^6.0.13",
+    "@react-navigation/native-stack": "^6.9.1",
+    "react-native-safe-area-context": "^4.4.1",
+    "react-native-screens": "^3.18.2",
+    "react-native-vector-icons": "^9.2.0"
+  }
+}
